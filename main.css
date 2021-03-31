@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 #product-overview {
     background-color: red;
@@ -11,8 +16,4 @@
 h1 {
     color: white;
     font-family: 'Anton', sans-serif;
-}
-
-h1 {
-    font-family: sans-serif;
 }
