@@ -4,11 +4,15 @@
     background-color: red;
 }
 
+.section-title {
+    color: blueviolet
+}
+
 h1 {
     color: white;
     font-family: 'Anton', sans-serif;
 }
 
-.section-title {
-    color: blueviolet
+h1 {
+    font-family: sans-serif;
 }
