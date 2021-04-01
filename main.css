@@ -8,9 +8,8 @@ body {
 
 #product-overview {
     background-color: red;
-    padding: 20px;
-    border: 5px solid black;
-    margin: 20px;
+    width: 100%;
+    height: 528px;
 }
 
 .section-title {
