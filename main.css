@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -34,13 +35,23 @@ body {
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
 }
 
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 54px);
+    width: calc(100% - 103px);
+    vertical-align: middle;
 }
 
 .main-nav__items {
