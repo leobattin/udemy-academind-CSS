@@ -1,6 +1,7 @@
 #product-overview {
     background: url("freedom.jpg");
     background-size: cover;
+    background-position: left 10% bottom 20%;
     width: 100%;
     height: 528px;
     padding: 10px;
