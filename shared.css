@@ -25,7 +25,7 @@ body {
 .main-header {
     width: 100%;
     background: #2ddf5c;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -41,7 +41,7 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.6rem;
     height: 22px;
     display: inline-block;
 }
@@ -64,7 +64,7 @@ body {
 
 .main-nav__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-nav__item > a {
@@ -83,8 +83,8 @@ body {
 .main-nav__item--cta > a {
     color: white;
     background-color: #ff1b68;
-    padding: 8px 16px;
-    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
 }
 
 .main-nav__item--cta > a:hover,
@@ -96,8 +96,8 @@ body {
 
 .main-footer {
     background: black;
-    padding: 32px;
-    margin-top: 48px;
+    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -127,11 +127,11 @@ body {
     color: white;
     font: inherit;
     border: 1.5px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 8px; 
+    padding: 0.5rem;
+    border-radius: 0.5rem; 
     font-weight: bold;
     cursor: pointer;
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 .button:hover,
