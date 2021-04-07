@@ -29,7 +29,7 @@ main {
     display: block;
     text-decoration: none;
     color: inherit;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .package__badge {
