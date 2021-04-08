@@ -13,14 +13,16 @@ for (let i = 0; i < selectPlanButtons.length; i++) {
     });
 }
 
-modalCloseButton.addEventListener('click', () => {
-    backdrop.classList.remove('open');
-    modal.classList.remove('open');
-});
+if (modal) {
+    modalCloseButton.addEventListener('click', () => {
+        backdrop.classList.remove('open');
+        modal.classList.remove('open');
+    });
+}
 
 backdrop.addEventListener('click', () => {
     backdrop.classList.remove('open');
-    modal.classList.remove('open');
+    if (modal) modal.classList.remove('open');
     mobileNav.classList.remove('open');
 });
 
