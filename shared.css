@@ -252,7 +252,14 @@ main {
     margin-top: 0.5rem;
 }
 
-.button:hover, .button:active {
+.button[disabled] {
+    cursor: not-allowed;
+    border: #a1a1a1;
+    background: #ccc;
+    color: #a1a1a1;    
+}
+
+.button:hover:not([disabled]), .button:active {
     background-color: white;
     color: #0e4f1f;
 }
