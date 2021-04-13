@@ -99,9 +99,8 @@ main {
 }
 
 @media (min-width: 1500px) {
-    .package, #free {
+    .package {
         border-left: 4px solid #0e4f1f;
-        
     }
 
     #free {
