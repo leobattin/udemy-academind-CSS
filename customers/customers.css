@@ -11,11 +11,14 @@ main {
     width: 100%;
     max-width: 580px;
     box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+    transform: skewX(10deg);
+    overflow: hidden;
 }
 
 .testimonial__image {
     width: 100%;
     vertical-align: top;
+    transform: skewX(-10deg) scale(1.2); 
 }
 
 .testimonial__info {

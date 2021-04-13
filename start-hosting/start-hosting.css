@@ -14,6 +14,7 @@ main {
     row-gap: 1rem;
     grid-template-columns: 80vw;
     justify-content: center;
+    grid-auto-rows: 2rem;
 }
 
 .signup-form label {
