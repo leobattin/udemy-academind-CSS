@@ -36,7 +36,6 @@ backdrop.addEventListener('click', () => {
 });
 
 toggleButton.addEventListener('click', () => {
-    backdrop.style.display = 'block';
     setTimeout(() => {
         backdrop.classList.add('open');
     }, 1);
